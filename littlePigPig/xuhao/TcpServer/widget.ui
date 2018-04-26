@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#Widget
+{
+image: url(:/image/test.jpg);
+}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>-10</y>
+     <width>581</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Aharoni</family>
+     <pointsize>48</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>      小区门禁系统</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnUser">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>310</y>
+     <width>200</width>
+     <height>150</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>50</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+color: rgb(0,0,0);
+background：transparent;
+border:3px groove;
+border-radius:7px;
+}
+
+QPushButton:pressed
+{
+pading-left:6px;
+padding-top:6px;
+}</string>
+   </property>
+   <property name="text">
+    <string>用户</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnGuest">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>320</y>
+     <width>200</width>
+     <height>150</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>50</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+color: rgb(0,0,0);
+background：transparent;
+border:3px groove;
+border-radius:7px;
+}
+
+QPushButton:pressed
+{
+pading-left:6px;
+padding-top:6px;
+}</string>
+   </property>
+   <property name="text">
+    <string>来宾</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnEnsure">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>30</y>
+     <width>80</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+color: rgb(0,0,0);
+background：transparent;
+border:3px groove;
+border-radius:7px;
+}
+
+QPushButton:pressed
+{
+pading-left:6px;
+padding-top:6px;
+}</string>
+   </property>
+   <property name="text">
+    <string>保安界面</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
